@@ -1,0 +1,36 @@
+body {
+	
+}
+
+h1 {
+	color: LightPink;
+	text-align: center;
+	font-size: 150%;
+}
+
+p {
+	font-family: cambria,georgia,serif;
+	font-size: 100%;
+}
+
+/*links*/
+a:link {
+	color:blue;
+	text-decoration: none;
+	background-color:beige;
+}
+a:visited {
+	color:DarkSalmon;
+	text-decoration: none;
+	background-color:beige;
+}
+a:hover {
+	color:cyan;
+	text-decoration: underline;
+	background-color:beige;
+}
+a:active {
+	color:LightPink;
+	text-decoration: none;
+	background-color:yellow;
+}
