@@ -1,11 +1,45 @@
 body {
-	
+	background-color:Snow;
+	max-width: 2000px;
+	width: 75%;
+	margin: auto;
 }
+
+
+/*navigation!*/
+
+nav {
+	background-color:oldlace;
+	padding: 10px 10px 10px 0px;
+	list-style-type:none;
+	text-align:center;
+}
+
+nav li {
+	display:inline-block;	
+	text-align:center;
+}
+
+/*headers and such*/
 
 h1 {
 	color: LightPink;
 	text-align: center;
-	font-size: 150%;
+	font-family:Cambria, georgia, serif;
+	font-size: 300%;
+	padding: 35px 0px 0px 0px;
+}
+
+h2 {
+	
+}
+
+h3 {
+	text-align: center;
+	background-color:teal;
+	font-family: cambria, georgia, serif;
+	font-style:italic;
+	color: darkSalmon;
 }
 
 p {
@@ -14,23 +48,22 @@ p {
 }
 
 /*links*/
-a:link {
-	color:blue;
-	text-decoration: none;
-	background-color:beige;
-}
-a:visited {
+a:link, a:visited {
 	color:DarkSalmon;
 	text-decoration: none;
-	background-color:beige;
+	background-color:OldLace;
+	text-align:center;
+	padding: 10px 10px 10px 10px;
+	display:inline-block;
 }
+
 a:hover {
-	color:cyan;
-	text-decoration: underline;
-	background-color:beige;
+	color:IndianRed;
+	text-decoration: none;
+	background-color:Orange;
 }
 a:active {
 	color:LightPink;
 	text-decoration: none;
-	background-color:yellow;
+	background-color:SeaShell;
 }
