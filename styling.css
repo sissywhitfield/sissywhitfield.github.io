@@ -12,6 +12,16 @@ video {
 	padding: 0px 0px 10px 10px;
 }
 
+/* header formatting */
+
+header {
+}
+
+header li{
+	display:inline-block;
+	margin: auto;
+}
+
 
 /*navigation!*/
 
@@ -98,6 +108,18 @@ h3 {
 p {
 	font-family: cambria,georgia,serif;
 	font-size: 100%;
+}
+
+.options ul{
+	text-align:center;
+}
+
+.options li{
+	display:inline-block;
+}
+
+.options img{
+	max-width:500px;
 }
 
 /*links*/
