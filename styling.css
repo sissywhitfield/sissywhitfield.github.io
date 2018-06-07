@@ -6,7 +6,7 @@ body {
 }
 
 video {
-	width:100%	!important;
+	width:95%	!important;
 	max-width: 640px; !important;
 	height: auto	!important;
 	padding: 0px 0px 10px 10px;
@@ -14,12 +14,22 @@ video {
 
 /* header formatting */
 
-header {
+header h1{
+	color: LightPink;
+	text-align: center;
+	font-family:Cambria, georgia, serif;
+	font-size: 300%;
+	background-color:oldlace;
+	padding: 35px 0px 2% 0px;
+	margin-top:5%;
+	margin-bottom:auto;
+	margin-left: auto;
+	margin-right:auto;
 }
 
 header li{
 	display:inline-block;
-	margin: auto;
+	margin: 0px auto;
 }
 
 
@@ -27,15 +37,23 @@ header li{
 
 nav {
 	background-color:oldlace;
-	padding: 10px;
+	padding: .05%;
 	list-style-type:none;
 	text-align:center;
 }
 
 nav li {
 	display:inline-block;
+	font-size:.85vw;
+	font-weight: bold;
 	text-align:center;
 	font-family:trebuchet,sans-serif;
+}
+
+nav a:hover{
+	color:white;
+	text-decoration: none;
+	background-color:Orange;
 }
 
 /*headers and such*/
@@ -54,12 +72,16 @@ h2 {
 	font-family:Cambria, Georgia, serif;
 }
 
-h3 {
-	text-align: center;
-	background-color:teal;
+.flexcontainer {
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:orange;
 	font-family: cambria, georgia, serif;
 	font-style:italic;
-	color: darkSalmon;
+	color: white;
+	margin: 0px auto;
+	font-size:.75vw;
 }
 
 /*listed content*/
@@ -68,12 +90,17 @@ h3 {
 	text-align:center;
 }
 
+.gallery ul {
+	text-align:center;
+	padding:2%;
+}
+
 .gallery li {
 	display:inline-block;
 }
 
 .gallery video {
-	width:100%;
+	width:95%;
 	max-width: 1280px;
 	height: auto;
 }
@@ -104,6 +131,21 @@ h3 {
 	padding: 1%;
 }
 
+/* image gallery */
+
+.imageGallery {
+	display: flex;
+}
+
+.column {
+	flex:33%;
+	max-width:33%;
+}
+
+.row {
+	flex-wrap: wrap;
+}
+
 
 p {
 	font-family: cambria,georgia,serif;
@@ -120,6 +162,15 @@ p {
 
 .options img{
 	max-width:500px;
+}
+
+a.options:link {
+	color: LightPink;
+	background-color:transparent;
+}
+
+a.options:hover {
+
 }
 
 /*links*/
