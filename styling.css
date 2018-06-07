@@ -5,6 +5,12 @@ body {
 	margin: auto;
 }
 
+video{
+	width:100%	!important;
+	max-width:500px; !important;
+	height: auto	!important;
+}
+
 
 /*navigation!*/
 
@@ -42,6 +48,17 @@ h3 {
 	color: darkSalmon;
 }
 
+/*listed content*/
+
+.gallery {
+	text-align:center;
+}
+
+.gallery li {
+	display:inline-block;
+}
+
+
 p {
 	font-family: cambria,georgia,serif;
 	font-size: 100%;
@@ -66,4 +83,22 @@ a:active {
 	color:LightPink;
 	text-decoration: none;
 	background-color:SeaShell;
+}
+
+/*Site Title*/
+
+a.siteTitle:link {
+	color: LightPink;
+	background-color:transparent;
+	text-align: center;
+	font-family:Cambria, georgia, serif;
+	padding: 0px 0px 0px 0px;
+}
+
+a.siteTitle:visited {
+	color: LightPink;
+	background-color:transparent;
+	text-align: center;
+	font-family:Cambria, georgia, serif;
+	padding: 0px 0px 0px 0px;
 }
