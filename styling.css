@@ -69,9 +69,18 @@ h3 {
 }
 
 .squareGallery {
+    padding:5%;
 	text-align:center;
 	background-color:white;
 }
+
+/*
+.squareGallery p{
+    text-align: left;
+    font-size: 50%;
+}
+
+*/
 
 .squareGallery video {
 	width:100%	!important;
@@ -135,6 +144,7 @@ a.siteTitle:visited {
 footer {
 	background-color:oldlace;
 	text-align:center;
+    margin-top: 10%;
 }
 
 footer li {
