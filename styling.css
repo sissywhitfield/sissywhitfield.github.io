@@ -14,7 +14,8 @@ video {
 
 /* header formatting */
 
-header h1{
+
+header h1 {
 	color: LightPink;
 	text-align: center;
 	font-family:Cambria, georgia, serif;
@@ -25,6 +26,15 @@ header h1{
 	margin-bottom:auto;
 	margin-left: auto;
 	margin-right:auto;
+}
+
+a.siteTitle {
+	color: LightPink;
+}
+
+a.siteTitle:hover {
+	background-color:transparent;
+	color:pink;
 }
 
 header li{
@@ -82,6 +92,11 @@ h2 {
 	color: white;
 	margin: 0px auto;
 	font-size:.75vw;
+}
+
+.randomGenerator {
+	display: block;
+	margin: 2% auto;
 }
 
 /*listed content*/
@@ -194,30 +209,14 @@ a:active {
 	background-color:SeaShell;
 }
 
-/*Site Title*/
-
-a.siteTitle:link {
-	color: LightPink;
-	background-color:transparent;
-	text-align: center;
-	font-family:Cambria, georgia, serif;
-	padding: 0px 0px 0px 0px;
-}
-
-a.siteTitle:visited {
-	color: LightPink;
-	background-color:transparent;
-	text-align: center;
-	font-family:Cambria, georgia, serif;
-	padding: 0px 0px 0px 0px;
-}
 
 /*footer*/
 
 footer {
 	background-color:oldlace;
 	text-align:center;
-    margin-top: 10%;
+	margin-top: 3% 0% 5% 0%;
+	padding: 5% 0% 1% 0%;
 }
 
 footer li {
