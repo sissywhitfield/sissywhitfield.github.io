@@ -148,20 +148,16 @@ h2 {
 	transition: all 0s;
 }
 
-.randomDisplayer p {
-	text-align:center;
-	color:blue;
-}
-
-#randomImage {
-	display; inline-block;
-	width: 80%;
-	margin: auto;
-}
-
 #randomDisplayer {
 	display: block;
 	text-align: center;
+	margin: 5% auto;
+}
+
+#createdElement {
+	width:95%	!important;
+	max-width: 1280px !important;
+	max-height: auto	!important;
 }
 
 /*listed content*/
