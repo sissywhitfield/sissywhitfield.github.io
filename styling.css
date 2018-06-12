@@ -15,6 +15,7 @@ video {
 /* header formatting */
 
 header h1 {
+	font-family: "Unna",Cambria,Serif;
 	color: LightPink;
 	background-color: oldlace;
 	text-align: center;
