@@ -14,12 +14,11 @@ video {
 
 /* header formatting */
 
-
 header h1 {
 	color: LightPink;
+	background-color: oldlace;
 	text-align: center;
-	font-family:Cambria, georgia, serif;
-	font-size: 300%;
+	font-size: 4vw;
 	background-color:oldlace;
 	padding: 35px 0px 2% 0px;
 	margin-top:5%;
@@ -28,13 +27,29 @@ header h1 {
 	margin-right:auto;
 }
 
-a.siteTitle {
+header h1 {
+	background-color: oldLace;
+	transition: background-color 1s ease-in;
+}
+
+header h1:hover {
+	background-color: white;
+	transition: background-color 3s ease-in;
+}
+
+a.siteTitle:link, a.siteTitle:visited, a.siteTitle:active {
+	font-family:'Faustina',Cambria, Georgia, serif;
+	letter-spacing: 8px;
+	text-transform:uppercase;
 	color: LightPink;
+	background-color: transparent;
+	transition: color 0.5s ease-in;
 }
 
 a.siteTitle:hover {
 	background-color:transparent;
-	color:pink;
+	color:#cc00cc;
+	transition: color 0.5s ease-in;
 }
 
 header li{
@@ -54,16 +69,26 @@ nav {
 
 nav li {
 	display:inline-block;
-	font-size:.85vw;
-	font-weight: bold;
+	font-size: 1vw;
 	text-align:center;
-	font-family:trebuchet,sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+nav a:link, nav a:visited {
+	color:orange;
+	text-decoration: none;
+	background-color:OldLace;
+	text-align:center;
+	padding: 10px 10px 10px 10px;
+	display:inline-block;
+	transition: all .2s ease-in;
 }
 
 nav a:hover{
-	color:white;
+	color: #cc00cc;
 	text-decoration: none;
-	background-color:Orange;
+	background-color:white;
+    transition: all .2s ease-in;
 }
 
 /*headers and such*/
@@ -71,15 +96,21 @@ nav a:hover{
 h1 {
 	color: LightPink;
 	text-align: center;
-	font-family:Cambria, georgia, serif;
+	font-family:'Unna', Cambria, Georgia, serif;
 	font-size: 300%;
 	padding: 35px 0px 0px 0px;
 }
 
 h2 {
 	color:teal;
-	text-align: left;
-	font-family:Cambria, Georgia, serif;
+	text-align: center;
+	font-family:'Unna', Cambria, Georgia, serif;
+	letter-spacing: 8px;
+}
+
+.pageInfo {
+	text-align:center;
+	font-family: 'Unna', Cambria, serif;
 }
 
 .flexcontainer {
@@ -87,22 +118,57 @@ h2 {
 	flex-direction:row;
 	justify-content:space-around;
 	background-color:orange;
-	font-family: cambria, georgia, serif;
+	font-family:'Unna', Cambria, Georgia, serif;
 	font-style:italic;
 	color: white;
 	margin: 0px auto;
 	font-size:.75vw;
 }
 
+/* Random Button, Generator */
+
 .randomGenerator {
 	display: block;
-	margin: 2% auto;
+	border: 0;
+	font-size: 1vw;
+	font-family:'Unna', Cambria, Georgia, serif;
+	letter-spacing: 3px;
+	background-color:orange;
+	color: white;
+	border-radius: 6px;
+	padding: 1%;
+	margin: 2% auto 4% auto;
+	transition: all 0.1s ease-in;
+}
+
+.randomGenerator:hover {
+	color:white;
+	background-color:#cc00cc;
+	transition: all 0s;
+}
+
+.randomDisplayer p {
+	text-align:center;
+	color:blue;
+}
+
+#randomImage {
+	display; inline-block;
+	width: 80%;
+	margin: auto;
+}
+
+#randomDisplayer {
+	display: block;
+	text-align: center;
 }
 
 /*listed content*/
 
 .gallery {
 	text-align:center;
+	padding: 2%;
+	margin: 2% 0%;
 }
 
 .gallery ul {
@@ -163,7 +229,7 @@ h2 {
 
 
 p {
-	font-family: cambria,georgia,serif;
+	font-family:'Unna', Cambria, Georgia, serif;
 	font-size: 100%;
 }
 
@@ -215,11 +281,24 @@ a:active {
 footer {
 	background-color:oldlace;
 	text-align:center;
+	font-size:.8vw;
 	margin-top: 3% 0% 5% 0%;
 	padding: 5% 0% 1% 0%;
+	transition: background-color 8s ease-in;
+}
+
+footer:hover {
+	background-color: #cc00cc;
+	transition: background-color 8s ease-in;
 }
 
 footer li {
 	text-align:center;
 	display:inline-block;
+}
+
+footer a:hover, footer a:link {
+	background-color:transparent;
+	font-style:underline;
+	font-family:'Unna', Cambria, Georgia, serif;
 }
