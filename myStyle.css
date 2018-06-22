@@ -1,0 +1,55 @@
+body {
+	padding: 5%;
+	max-width: 2000px;
+	width: 80%;
+	margin: auto;
+}
+
+.mainContent {
+	outline-style: solid;
+	outline-color: red;
+	padding: 0px 10%;
+}
+
+p {
+	font-family: Cambria;
+	font-size: 1.2vw;
+}
+
+h1 {
+	font-family:cambria;
+	font-size:1.6vw;
+}
+
+#homepage {
+	padding: 0 20px;
+	background-color: white;
+	display: block;
+	overflow: hidden;
+}
+
+.accordian {
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	margin: 1% 0%;
+
+	text-align: left;
+	font-family: Cambria;
+	font-size: 1.5vw;
+
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.active, .accordian:hover {
+	background-color:oldLace;
+}
+
+.panel {
+	padding: 0 20px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+}
