@@ -1,14 +1,10 @@
-var acc = document.getElementsByClassName("accordion");
-var x;
+var acc = document.getElementsByClassName("accordian");
+var i;
 
-for (x = 0; x < acc.length; x++) {
-    acc[x].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    };
+console.log(acc);
+
+for (var i = acc.length - 1; i >= 0; i--) {
+	acc[i].addEventListener("click", function(){
+    acc[i].innerHTML = "Hello World";
+});
 }

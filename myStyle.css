@@ -8,7 +8,7 @@ body {
 .mainContent {
 	outline-style: solid;
 	outline-color: red;
-	padding: 0px 10%;
+	padding: 5% 10%;
 }
 
 p {
@@ -24,7 +24,7 @@ h1 {
 #homepage {
 	padding: 0 20px;
 	background-color: white;
-	display: block;
+	display: inline-block;
 	overflow: hidden;
 }
 
@@ -32,8 +32,9 @@ h1 {
 	width: 100%;
 	border: none;
 	outline: none;
-	padding: 20px;
-	margin: 1% 0%;
+	padding: 4px 3px 4px 2%;
+	margin: 2px 0%;
+	border-radius: 150px;
 
 	text-align: left;
 	font-family: Cambria;
@@ -43,44 +44,23 @@ h1 {
 	transition: all 0.4s ease;
 }
 
-.active, .accordian:hover {
+.active{
+	background-color:red;
+}
+
+.accordian:hover {
 	background-color:oldLace;
 }
 
 .panel {
 	padding: 0 20px;
-	background-color: white;
+	background-color: red;
 	display: none;
 	overflow: hidden;
 }
 
-
-/* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-}
-
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
-div.panel.show {
-    display: block !important;
+video {
+	width: 100%;
+	padding: 8px;
+	margin: auto;
 }
