@@ -72,7 +72,8 @@ nav li {
 	display:inline-block;
 	font-size: 1vw;
 	text-align:center;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
+
 }
 
 nav a:link, nav a:visited {
@@ -132,7 +133,7 @@ h2 {
 	display: block;
 	border: 0;
 	font-size: 1vw;
-	font-family:'Unna', Cambria, Georgia, serif;
+	font-family:'Lato', Cambria, Georgia, serif;
 	letter-spacing: 3px;
 	background-color:orange;
 	color: white;
@@ -211,6 +212,7 @@ h2 {
 
 /* image gallery */
 
+
 .imageGallery {
 	display: flex;
 }
@@ -230,26 +232,63 @@ p {
 	font-size: 100%;
 }
 
-.options ul{
-	text-align:center;
+.options {
+	display: flex;
 }
 
-.options li{
-	display:inline-block;
+.optionColumn {
+	flex: 50%;
+	padding: 10px;
+}
+
+.options a:link{
+	display: inline-block;
 }
 
 .options img{
-	max-width:500px;
+	display: inline-block;
+	width: 800px;
+	max-width:50%;
+	margin: auto;
 }
 
-a.options:link {
-	color: LightPink;
+.options a:link {
 	background-color:transparent;
 }
 
-a.options:hover {
-
+.options a:hover {
+	background-color: #cc00cc;
+	transition:background-color ease-in 0.5s;
 }
+
+.optionColumn:hover .overlayMe {
+	opacity: 1;
+}
+
+.overlayMe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlayText {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 /*links*/
 a:link, a:visited {
