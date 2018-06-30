@@ -217,7 +217,7 @@ h2 {
 	display: flex;
 }
 
-.column {
+.imageGallery .column {
 	flex:33%;
 	max-width:33%;
 }
